@@ -1,0 +1,2 @@
+aws cloudformation create-stack --stack-name gp4-gltest-stack --template-body file://CF3.json
+aws cloudformation delete-stack --stack-name gp4-gltest-stack
